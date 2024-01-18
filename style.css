@@ -1,0 +1,208 @@
+/* Style Sheet */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+h2, p{
+    margin: 0;
+}
+
+button.sign-up-button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    padding-left: 16.5vw;
+    padding-right: 16.5vw;
+}
+
+.header .text {
+    font-size: 24px;
+}
+
+.container {
+   display: flex;
+   height: fit-content;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 16.5vw;
+   padding-right: 16.5vw;
+   gap: 16px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+.hero {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex: 1 1 50%;
+    gap: 8px;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+
+}
+
+img .hero {
+    flex: 1 1 auto;
+}
+
+.hero .text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero .small-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16.5vw;
+    padding-right: 16.5vw;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 8px;
+}
+
+.info div {
+    display: flex;
+    gap: 8px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    flex: 1;
+    justify-content: center;
+}
+
+
+.dogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 25%;
+    text-align: center;
+    gap: 8px;
+    color: grey;
+    width: 200px
+}
+
+.dogs img{
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+    border: 2px solid #1f2937;
+}
+
+.quote {
+   background-color: #e5e7eb;
+   padding-left: 16.5vw;
+   padding-right: 16.5vw;
+   padding-top: 36px;
+   padding-bottom: 36px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-sign {
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16.5vw;
+    margin-right: 16.5vw;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.sign-up .big-text {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign-up .text {
+    font-weight: lighter;
+}
+
+.sign-up button{
+    border-color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    padding-left: 16.5vw;
+    padding-right: 16.5vw;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
